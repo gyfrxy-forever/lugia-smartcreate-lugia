@@ -1,0 +1,67 @@
+{
+  "Desc": [
+    {
+      "title": "通过基金代码进行数据的查询"
+    }
+  ],
+  "Page": [],
+  "QueryButton": [],
+  "QueryForm": [
+    {
+      "key": "searchInfo",
+      "required": "",
+      "title": "条件查询",
+      "type": ""
+    }
+  ],
+  "ResetButton": [],
+  "Router": [
+    {
+      "path": "home",
+      "title": "首页"
+    }
+  ],
+  "Table": [
+    {
+      "columns": [
+        {
+          "dataIndex": "fundCode",
+          "key": "fundCode",
+          "title": "基金代码"
+        },
+        {
+          "dataIndex": "fundName",
+          "key": "fundName",
+          "title": "基金简称"
+        },
+        {
+          "dataIndex": "stock",
+          "key": "stock",
+          "title": "持有股份（万元）"
+        },
+        {
+          "dataIndex": "cost",
+          "key": "cost",
+          "title": "成本（万元）"
+        },
+        {
+          "dataIndex": "marketValue",
+          "key": "marketValue",
+          "title": "市值（万元）"
+        },
+        {
+          "dataIndex": "ratio",
+          "key": "ratio",
+          "title": "市值占比（%）"
+        }
+      ],
+      "data": [],
+      "title": ""
+    }
+  ],
+  "Title": [
+    {
+      "title": "简单信息查询"
+    }
+  ]
+}

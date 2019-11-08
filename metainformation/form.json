@@ -1,0 +1,58 @@
+{
+  "AddBtn": [],
+  "Desc": [
+    {
+      "desc": "详细信息的录入"
+    }
+  ],
+  "Form": [
+    {
+      "key": "fundCode",
+      "required": "",
+      "title": "基金代码",
+      "type": ""
+    },
+    {
+      "key": "fundName",
+      "required": "",
+      "title": "基金简称",
+      "type": ""
+    },
+    {
+      "key": "stock",
+      "required": "",
+      "title": "持有股份（万元）",
+      "type": ""
+    },
+    {
+      "key": "cost",
+      "required": "",
+      "title": "成本（万元）",
+      "type": ""
+    },
+    {
+      "key": "marketValue",
+      "required": "",
+      "title": "市值（万元）",
+      "type": ""
+    },
+    {
+      "key": "ratio",
+      "required": "",
+      "title": "市值占比（%）",
+      "type": ""
+    }
+  ],
+  "HeadOne": [
+    {
+      "title": "信息录入"
+    }
+  ],
+  "LinkRouter": [
+    {
+      "path": "home",
+      "title": "首页"
+    }
+  ],
+  "ResetBtn": []
+}

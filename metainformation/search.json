@@ -1,0 +1,94 @@
+{
+  "Desc": [
+    {
+      "title": "详细信息查询"
+    }
+  ],
+  "QueryFormContent": [
+    {
+      "key": "fundCode",
+      "required": "",
+      "title": "基金代码",
+      "type": ""
+    },
+    {
+      "key": "fundName",
+      "required": "",
+      "title": "基金简称",
+      "type": ""
+    },
+    {
+      "key": "stock",
+      "required": "",
+      "title": "持有股份(万元)",
+      "type": ""
+    },
+    {
+      "key": "cost",
+      "required": "",
+      "title": "成本(万元)",
+      "type": ""
+    },
+    {
+      "key": "marketValue",
+      "required": "",
+      "title": "市值(万元)",
+      "type": ""
+    },
+    {
+      "key": "ratio",
+      "required": "",
+      "title": "市值占比(%)",
+      "type": ""
+    }
+  ],
+  "Router": [
+    {
+      "path": "home",
+      "title": "首页"
+    }
+  ],
+  "TableContent": [
+    {
+      "columns": [
+        {
+          "dataIndex": "fundCode",
+          "key": "fundCode",
+          "title": "基金代码"
+        },
+        {
+          "dataIndex": "fundName",
+          "key": "fundName",
+          "title": "基金简称"
+        },
+        {
+          "dataIndex": "stock",
+          "key": "stock",
+          "title": "持有股份(万元)"
+        },
+        {
+          "dataIndex": "cost",
+          "key": "cost",
+          "title": "成本(万元)"
+        },
+        {
+          "dataIndex": "marketValue",
+          "key": "marketValue",
+          "title": "市值(万元)"
+        },
+        {
+          "dataIndex": "ratio",
+          "key": "ratio",
+          "title": "市值占比(%)"
+        }
+      ],
+      "data": [],
+      "title": ""
+    }
+  ],
+  "Title": [
+    {
+      "title": "详情查询"
+    }
+  ]
+}
